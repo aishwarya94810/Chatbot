@@ -1,0 +1,46 @@
+[
+  {
+    "data": [
+      {
+        "text": "Do you have ",
+        "userDefined": false
+      },
+      {
+        "text": "hawaii",
+        "meta": "@pizza_type",
+        "alias": "type",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Do you offer pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Margherita",
+        "meta": "@pizza_type",
+        "alias": "type",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

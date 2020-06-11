@@ -1,0 +1,38 @@
+{
+  "id": "5377a285-e228-4393-b55d-7108994bd4b3",
+  "name": "smalltalk.user.positive.itemdone",
+  "auto": true,
+  "contexts": [
+    "basket"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Go ahead, I\u0027m listening!",
+            "Happy to help, what else would you like to order?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

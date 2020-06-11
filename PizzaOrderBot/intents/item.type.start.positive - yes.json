@@ -1,0 +1,98 @@
+{
+  "id": "fed28be3-04db-45e6-ace0-b43ea5d753b7",
+  "parentId": "11d96b3f-bb78-4bf3-9d79-ec2609e71e7e",
+  "rootParentId": "11d96b3f-bb78-4bf3-9d79-ec2609e71e7e",
+  "name": "item.type.start.positive - yes",
+  "auto": true,
+  "contexts": [
+    "item",
+    "itemtypestartpositive-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "itemtypestartpositive.itemtypestartpositive-yes",
+      "affectedContexts": [
+        {
+          "name": "item-confirm",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "83daa6f4-5a69-4c80-ba06-80edd8e16200",
+          "name": "type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "11195c68-f909-4848-937d-899fcfca8d94",
+          "name": "amount",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many $type would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "11bc1931-1813-4d7b-8916-e89c4db8e6a8",
+          "name": "size",
+          "required": true,
+          "dataType": "@pizza_size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size would you like the pizza $type ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great, so that\u0027s $amount $type in $size. Can you confirm ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "value": "Funghi",
+    "synonyms": [
+      "Funghi",
+      "mushroom"
+    ]
+  },
+  {
+    "value": "Hawaii",
+    "synonyms": [
+      "Hawaii",
+      "Hawaiian pizza",
+      "hawai",
+      "hawaiian"
+    ]
+  },
+  {
+    "value": "Margherita",
+    "synonyms": [
+      "Margherita",
+      "margerita"
+    ]
+  },
+  {
+    "value": "Pepperoni",
+    "synonyms": [
+      "Pepperoni"
+    ]
+  },
+  {
+    "value": "Vegitarian",
+    "synonyms": [
+      "Vegitarian",
+      "Vegetaria",
+      "Veggie"
+    ]
+  },
+  {
+    "value": "Cheese",
+    "synonyms": [
+      "Cheese",
+      "3 cheese"
+    ]
+  }
+]

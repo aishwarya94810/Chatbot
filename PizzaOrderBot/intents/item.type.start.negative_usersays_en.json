@@ -1,0 +1,52 @@
+[
+  {
+    "data": [
+      {
+        "text": "Do you have ",
+        "userDefined": false
+      },
+      {
+        "text": "Quattro Stagoni",
+        "meta": "@unavailable_pizza_types",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Salami",
+        "meta": "@unavailable_pizza_types",
+        "alias": "type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Do you offer pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Americana",
+        "meta": "@unavailable_pizza_types",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

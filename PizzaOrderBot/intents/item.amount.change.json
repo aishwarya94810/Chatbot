@@ -1,0 +1,89 @@
+{
+  "id": "baf6f423-12f0-4b7c-9f9f-51d2f7bc275e",
+  "name": "item.amount.change",
+  "auto": true,
+  "contexts": [
+    "item"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "item",
+          "lifespan": 3
+        },
+        {
+          "name": "item-confirm",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7bd3f1f0-5754-4c1b-b04f-5a4035f68e6a",
+          "name": "type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "352e0e77-2410-417c-93ae-a5ab12c7610f",
+          "name": "size",
+          "required": true,
+          "dataType": "@pizza_size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "94bbbd52-453e-4ec8-a38c-2151d8a76dda",
+          "name": "amount",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$amount",
+          "defaultValue": "#item.amount",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure will update the $amount amount. Is that correct ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

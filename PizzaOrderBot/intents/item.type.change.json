@@ -1,0 +1,89 @@
+{
+  "id": "2e7225e3-fe7c-4e10-a382-5fa6aacd8ea7",
+  "name": "item.type.change",
+  "auto": true,
+  "contexts": [
+    "item"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "item",
+          "lifespan": 3
+        },
+        {
+          "name": "item-confirm",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "de19da52-9e85-43f7-b779-1d06b5b7f99c",
+          "name": "type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "94d7955d-6c97-4446-8abb-5d23d6b14b30",
+          "name": "size",
+          "required": true,
+          "dataType": "@pizza_size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "086276a9-21ee-4499-be7c-c3a4a93a0eec",
+          "name": "amount",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$amount",
+          "defaultValue": "#item.amount",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, I amended your order to $amount $type $size.Is that what you want now ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

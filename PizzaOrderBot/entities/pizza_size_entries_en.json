@@ -1,0 +1,81 @@
+[
+  {
+    "value": "7\"",
+    "synonyms": [
+      "7\"",
+      "7 inch",
+      "XS",
+      "extra small",
+      "mini",
+      "personal",
+      "sevel inch",
+      "size XS",
+      "size 7 inch"
+    ]
+  },
+  {
+    "value": "10\"",
+    "synonyms": [
+      "10\"",
+      "10 inch",
+      "S",
+      "size S",
+      "small",
+      "ten inch",
+      "small 10 inch"
+    ]
+  },
+  {
+    "value": "12\"",
+    "synonyms": [
+      "12\"",
+      "12 inches",
+      "12 inch",
+      "12\" M",
+      "medium",
+      "size M",
+      "standard",
+      "standard size",
+      "standard sized",
+      "twelve inch"
+    ]
+  },
+  {
+    "value": "14\"",
+    "synonyms": [
+      "14\"",
+      "14 inch",
+      "L",
+      "large size",
+      "fourteen inches large",
+      "large"
+    ]
+  },
+  {
+    "value": "16\"",
+    "synonyms": [
+      "16\"",
+      "16 inch",
+      "extra large",
+      "XL"
+    ]
+  },
+  {
+    "value": "18\"",
+    "synonyms": [
+      "18\"",
+      "18 inch",
+      "family size",
+      "jumbo",
+      "size XXL"
+    ]
+  },
+  {
+    "value": "21\"",
+    "synonyms": [
+      "21\"",
+      "21 inch",
+      "colossal"
+    ]
+  }
+]

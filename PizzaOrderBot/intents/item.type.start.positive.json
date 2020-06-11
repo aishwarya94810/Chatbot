@@ -1,0 +1,60 @@
+{
+  "id": "11d96b3f-bb78-4bf3-9d79-ec2609e71e7e",
+  "name": "item.type.start.positive",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "item",
+          "lifespan": 5
+        },
+        {
+          "name": "itemtypestartpositive-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7b715b63-4ea9-4c3f-b46f-1c5e756ee183",
+          "name": "type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Yes, We do offer $type. Would you like to order one?",
+            "Yes we do. How many would you like ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

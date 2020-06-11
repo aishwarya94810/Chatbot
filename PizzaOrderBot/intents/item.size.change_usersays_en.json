@@ -1,0 +1,102 @@
+[
+  {
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "meta": "@pizza_size",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese",
+        "meta": "@pizza_type",
+        "alias": "type",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "I\u0027d like it in ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "meta": "@pizza_size",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " instead",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "actually, I would like a ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "meta": "@pizza_size",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "vegetarian",
+        "meta": "@pizza_type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Wait, can I get it in ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "meta": "@pizza_size",
+        "alias": "size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
